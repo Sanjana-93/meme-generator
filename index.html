@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Meme Generator</h1>
+        <div id="meme-form" class="my-4">
+            <form id="memeForm" class="form-inline justify-content-center">
+                <div class="form-group mx-2">
+                    <label for="template" class="mr-2">Template:</label>
+                    <select id="template" class="form-control">
+                        <!-- Options will be populated dynamically -->
+                    </select>
+                </div>
+                <div class="form-group mx-2">
+                    <label for="topText" class="mr-2">Top Text:</label>
+                    <input type="text" id="topText" class="form-control">
+                </div>
+                <div class="form-group mx-2">
+                    <label for="bottomText" class="mr-2">Bottom Text:</label>
+                    <input type="text" id="bottomText" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary mx-2">Generate Meme</button>
+            </form>
+        </div>
+        <div id="meme-display" class="text-center my-4">
+            <!-- Meme display will go here -->
+        </div>
+        <div id="meme-gallery" class="text-center my-4">
+            <h2>Your Memes</h2>
+            <div id="gallery" class="row">
+                <!-- Meme gallery will go here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
