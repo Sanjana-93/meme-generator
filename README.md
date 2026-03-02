@@ -30,8 +30,8 @@ How to Run Locally:-
 
 Concepts Used:-
 
-  DOM Manipulation
-  Fetch API
-  Asynchronous JavaScript (Promises)
-  Event Handling
-  API Integration
+ 1. DOM Manipulation
+ 2. Fetch API
+ 3.Asynchronous JavaScript (Promises)
+ 4. Event Handling
+ 5. API Integration
