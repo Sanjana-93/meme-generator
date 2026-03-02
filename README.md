@@ -14,8 +14,24 @@ Features:-
 5. Simple and user-friendly interface
 
 Tech Stack:- 
-   HTML
-   CSS
-   JavaScript
-   Public Meme API
+
+   HTML,
+   CSS,
+   JavaScript,
+   Public Meme API.
    Netlify (Deployment)
+
+How to Run Locally:-
+
+1. Clone the repository
+2. git clone https://github.com/your-username/meme-generator.git
+3. Open the project folder
+4. Open index.html in your browser
+
+Concepts Used:-
+
+  DOM Manipulation
+  Fetch API
+  Asynchronous JavaScript (Promises)
+  Event Handling
+  API Integration
